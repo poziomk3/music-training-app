@@ -1,4 +1,5 @@
 import CircleOfFifths from "./components/CircleOfFifths";
+import PianoBoard from "./components/PianoBoard";
 
 function App() {
   // const obj1= useFrequency({
@@ -15,9 +16,10 @@ function App() {
   // })
 
   return (
-    <div className=" w-full min-h-screen h-[100vh]  ">
-      <CircleOfFifths />
-      {/* <CircleOfFifths/> */}
+    <div className=" w-full min-h-screen  bg-red-200 ">
+      {/* <CircleOfFifths /> */}
+      <CircleOfFifths/>
+      <PianoBoard/>
     </div>
   );
 }

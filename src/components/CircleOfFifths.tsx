@@ -23,7 +23,7 @@ const cirlceOfFifths: Array<Note> = [
 
 const CircleOfFifths: FC<CircleOfFifthsProps> = () => {
   return (
-    <div className="relative h-full w-full   bg-red-200 flex justify-center items-center overflow-hidden">
+    <div className="relative  w-full  aspect-square  flex justify-center items-center overflow-hidden">
       <div className="absolute ">
           {cirlceOfFifths.map((item, index) => (
             <div
@@ -51,7 +51,7 @@ const CircleOfFifths: FC<CircleOfFifthsProps> = () => {
               </div>
             </div>
           ))}
-          <div className="absolute w-[220px] -translate-x-1/2 -translate-y-1/2 aspect-square opacity-80 bg-[#1C0752] rounded-full z-20  " />
+          <div className="  absolute w-[220px] -translate-x-1/2 -translate-y-1/2 aspect-square opacity-80 bg-[#1C0752] rounded-full z-20  " />
       </div>
     </div>
   );
