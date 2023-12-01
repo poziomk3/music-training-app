@@ -19,7 +19,9 @@ function App() {
     <div className=" w-full min-h-screen  bg-red-200 ">
       {/* <CircleOfFifths /> */}
       <CircleOfFifths/>
-      <PianoBoard/>
+     
+     <div className="flex">{Array(3).fill(0).map((item,index)=><PianoBoard key={index}/>)}</div>
+      
     </div>
   );
 }
